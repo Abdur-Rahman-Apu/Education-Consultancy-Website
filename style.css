@@ -94,6 +94,20 @@
   bottom: 0;
 }
 
+.country-section p {
+  font-family: var(--font-poppins);
+}
+
+.country-card img {
+  border-radius: 50px;
+  filter: brightness(80%);
+}
+
+.country-card p {
+  left: 8%;
+  bottom: 5%;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
