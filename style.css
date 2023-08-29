@@ -117,6 +117,71 @@
   bottom: 5%;
 }
 
+.service-section {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.service-section > p {
+  font-family: var(--font-poppins);
+}
+
+.services {
+  width: 100%;
+}
+
+.card {
+  border-radius: 50px;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 6px #a4b0be;
+}
+
+.card:hover img {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.card img {
+  width: 15vw;
+  margin: 0 auto;
+  transition: transform 1s ease-in-out;
+}
+
+.card-body {
+  font-family: var(--font-poppins);
+}
+
+.card-body a {
+  color: #035de4;
+  text-decoration: none;
+}
+
+.shortlist-card {
+  background-color: #cb96ff;
+}
+
+.graduation-hat {
+  background-color: #96ffb4;
+}
+
+.visa-card {
+  background-color: #ffaf96;
+}
+
+.check-card {
+  background-color: #96e6ff;
+}
+
+.loan-card {
+  background-color: #ff9696;
+}
+
+.payment-card {
+  background-color: #ffe896;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
@@ -163,6 +228,10 @@
   }
   .banner-section .book-btn {
     font-size: 3.5vw;
+  }
+
+  .country-card p {
+    font-size: 2vw;
   }
 }
 @media screen and (max-width: 300px) {
