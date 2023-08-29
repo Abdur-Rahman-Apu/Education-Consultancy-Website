@@ -6,7 +6,6 @@
 
 .navbar-brand {
   height: 4vw;
-  width: 4vw;
   text-transform: uppercase;
   font-family: var(--font-inter);
   font-weight: 600;
@@ -31,4 +30,28 @@
 
 .book-btn:hover {
   color: #fff;
+}
+
+/* media query  */
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .navbar-brand img {
+    height: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 300px) {
+  .navbar-brand p {
+    font-size: 5vw;
+  }
+
+  .nav-link,
+  .book-btn {
+    font-size: 4.5vw;
+  }
 }
