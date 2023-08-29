@@ -102,6 +102,10 @@
   font-family: var(--font-poppins);
 }
 
+.country-card {
+  height: 100%;
+}
+
 .country-card img {
   border-radius: 50px;
   filter: brightness(80%);
