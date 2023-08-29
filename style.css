@@ -26,10 +26,68 @@
   background-color: var(--primary-color);
   color: #fff;
   font-family: var(--font-inter);
+  font-weight: bold;
 }
 
 .book-btn:hover {
   color: #fff;
+}
+
+.banner-section > div {
+  width: 50%;
+}
+
+.banner-section h1 {
+  font-family: var(--font-inter);
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.cloud-img {
+  z-index: 3;
+}
+
+.carousel-header .airplane-section {
+  width: fit-content;
+  height: 45vh;
+}
+
+.airplane-img {
+  height: 60%;
+  width: 28vw;
+  left: -23%;
+  bottom: 10%;
+  transform: rotateX(13deg) rotateY(220deg);
+}
+
+.carousel-header #headerCarousel {
+  width: 60%;
+  /* flex-grow: 1; */
+  margin-left: 5%;
+}
+
+.carousel-item {
+  width: 90%;
+  height: 300px;
+}
+
+.carousel-item {
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  background: linear-gradient(to top, #000 50%, transparent);
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* media query  */
