@@ -129,7 +129,7 @@
     <!-- main section start  -->
     <main class="mt-5 ">
 
-        <section class="country-section my-5 ms-5 ps-5">
+        <section class="country-section ms-sm-5 ps-sm--5">
             <p class="h4 mb-4">Lets help you in your dream</p>
 
             <div class="country-card-container">
@@ -181,6 +181,7 @@
                 slidesToShow: 3,
                 arrows: false,
                 draggable: true,
+                // mobileFirst: true,
                 responsive: [
                     {
                         breakpoint: 1200,
@@ -189,9 +190,10 @@
                         }
                     },
                     {
-                        breakpoint: 900,
+                        breakpoint: 440,
                         settings: {
-                            slidesToShow: 1
+                            slidesToShow: 1,
+                            slideToScroll: 1
                         }
                     }
                 ]

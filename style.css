@@ -94,6 +94,10 @@
   bottom: 0;
 }
 
+.country-section {
+  margin-top: 6rem;
+}
+
 .country-section p {
   font-family: var(--font-poppins);
 }
@@ -101,6 +105,7 @@
 .country-card img {
   border-radius: 50px;
   filter: brightness(80%);
+  height: 100%;
 }
 
 .country-card p {
