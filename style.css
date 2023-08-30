@@ -2,6 +2,7 @@
   --font-inter: "Inter", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --primary-color: #0c243c;
+  --secondary-color: #0b233b;
 }
 
 .navbar-brand {
@@ -180,6 +181,54 @@
 
 .payment-card {
   background-color: #ffe896;
+}
+
+.test-section {
+  margin-top: 6rem;
+  background-color: #0b233b;
+}
+
+.test-subheading {
+  color: #a6a6a6;
+}
+
+.test-section {
+  padding: 6rem 0;
+}
+
+.test-section button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  color: #fff;
+  padding: 0.3rem 1.3rem;
+  font-family: var(--font-poppins);
+  transition: all 0.3s;
+}
+
+.test-section button:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+}
+
+.test-section > div {
+  margin: 0 10rem;
+}
+
+.test-section > div > div {
+  font-family: var(--font-poppins);
+}
+
+.test-section img {
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.jump-img-section img {
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 /* media query  */
