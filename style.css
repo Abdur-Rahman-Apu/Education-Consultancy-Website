@@ -262,9 +262,69 @@
   color: #fff;
 }
 
+.student-count-section {
+  margin: 0 6rem;
+  padding: 3rem 1rem 3rem 4rem;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: var(--font-poppins);
+}
+
+.student-count-section > div {
+  width: 50%;
+}
+
+.student-count-amount .img-part {
+  background-color: #d9d9d9;
+  width: fit-content;
+  padding: 0.8rem;
+}
+
+.count,
+.count-name {
+  margin: 0;
+}
+
+.count {
+  width: fit-content;
+  font-size: 1vw;
+}
+
+.count-name {
+  font-size: 1.1vw;
+}
+
+.student-admission {
+  width: 46px;
+}
+
+.universities {
+  width: 25px;
+}
+
+.loans-sanctioned {
+  width: 41px;
+}
+
+.students-application {
+  width: 50px;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
+  .student-count-section {
+    flex-direction: column;
+  }
+
+  .student-count-section > div {
+    width: 100%;
+  }
+
+  .student-count-amount {
+    margin-top: 3rem;
+  }
 }
 @media screen and (max-width: 992px) {
   .navbar-brand img {
@@ -292,6 +352,13 @@
   .loan-img {
     width: 100%;
   }
+  .count {
+    font-size: 1.5vw;
+  }
+
+  .count-name {
+    font-size: 1.6vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .banner-section h1 {
@@ -317,6 +384,17 @@
 
   .loan-section {
     padding: 4rem 2rem;
+  }
+  .student-count-section {
+    margin: 4rem 1rem;
+  }
+
+  .count {
+    font-size: 1.8vw;
+  }
+
+  .count-name {
+    font-size: 1.7vw;
   }
 }
 @media screen and (max-width: 576px) {
@@ -358,6 +436,27 @@
   .loan-section {
     padding: 4rem 1rem;
   }
+
+  .count {
+    font-size: 3vw;
+  }
+
+  .count-name {
+    font-size: 3.1vw;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .student-count-content .h2 {
+    font-size: 5.5vw;
+  }
+
+  .student-count-content p:nth-child(2) {
+    font-size: 3.2vw;
+  }
+  .student-count-section {
+    padding: 3rem 1rem 3rem;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -386,6 +485,14 @@
   .card img {
     width: 100%;
   }
+
+  .count {
+    font-size: 4vw;
+  }
+
+  .count-name {
+    font-size: 4.1vw;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -404,5 +511,9 @@
 
   .test-section button {
     font-size: 4vw;
+  }
+
+  .count-name {
+    font-size: 3.6vw;
   }
 }
