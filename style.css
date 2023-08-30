@@ -131,6 +131,7 @@
 }
 
 .card {
+  height: 100%;
   padding: 2rem;
   border-radius: 50px;
   transition: box-shadow 1s ease-in-out;
@@ -146,6 +147,7 @@
 
 .card img {
   width: 15vw;
+  height: 180px;
   margin: 0 auto;
   transition: transform 1s ease-in-out;
 }
@@ -188,8 +190,9 @@
   background-color: #0b233b;
 }
 
-.test-subheading {
+.subheading {
   color: #a6a6a6;
+  text-align: justify;
 }
 
 .test-section {
@@ -232,6 +235,33 @@
   border-bottom-left-radius: 50px;
 }
 
+.loan-section {
+  padding: 4rem 6rem;
+}
+
+.loan-content-part,
+.loan-img {
+  width: 50%;
+}
+
+.loan-content-part {
+  padding: 0 3rem;
+  text-align: justify;
+  font-family: var(--font-poppins);
+}
+
+.loan-content-part button {
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.loan-content-part button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
@@ -257,6 +287,11 @@
   .carousel-header #headerCarousel {
     width: 100%;
   }
+
+  .loan-content-part,
+  .loan-img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .banner-section h1 {
@@ -272,12 +307,16 @@
     margin: 0 2rem;
   }
 
-  .test-heading {
+  .heading {
     font-size: 4vw;
   }
 
-  .test-subheading {
+  .subheading {
     font-size: 3vw;
+  }
+
+  .loan-section {
+    padding: 4rem 2rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -308,12 +347,16 @@
     width: 30vw;
   }
 
-  .test-heading {
+  .heading {
     font-size: 5vw;
   }
 
-  .test-subheading {
+  .subheading {
     font-size: 4vw;
+  }
+
+  .loan-section {
+    padding: 4rem 1rem;
   }
 }
 
@@ -331,6 +374,17 @@
   }
   .card-text {
     font-size: 5vw;
+  }
+
+  .loan-section button {
+    font-size: 3vw;
+  }
+
+  .loan-content-part {
+    padding: 0;
+  }
+  .card img {
+    width: 100%;
   }
 }
 
