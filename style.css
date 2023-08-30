@@ -119,8 +119,7 @@
 }
 
 .service-section {
-  margin-top: 3rem;
-  margin-left: 3rem;
+  margin: 3rem 6rem 0;
 }
 
 .service-section > p {
@@ -132,6 +131,7 @@
 }
 
 .card {
+  padding: 2rem;
   border-radius: 50px;
   transition: box-shadow 1s ease-in-out;
 }
@@ -217,6 +217,7 @@
 
 .test-section > div > div {
   font-family: var(--font-poppins);
+  margin-bottom: 3rem;
 }
 
 .test-section img {
@@ -266,6 +267,18 @@
   .banner-section .book-btn {
     font-size: 3vw;
   }
+
+  .test-section > div {
+    margin: 0 2rem;
+  }
+
+  .test-heading {
+    font-size: 4vw;
+  }
+
+  .test-subheading {
+    font-size: 3vw;
+  }
 }
 @media screen and (max-width: 576px) {
   .banner-section {
@@ -282,7 +295,45 @@
   .country-card p {
     font-size: 2vw;
   }
+
+  .service-section {
+    margin: 0 2rem;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .card img {
+    width: 30vw;
+  }
+
+  .test-heading {
+    font-size: 5vw;
+  }
+
+  .test-subheading {
+    font-size: 4vw;
+  }
 }
+
+@media screen and (max-width: 380px) {
+  .service-section {
+    margin: 0 1rem;
+  }
+
+  .card-body {
+    padding: 1rem 0;
+  }
+
+  .card-title {
+    font-size: 6vw;
+  }
+  .card-text {
+    font-size: 5vw;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .navbar-brand p {
     font-size: 5vw;
@@ -295,5 +346,9 @@
 
   .banner-section .book-btn {
     font-size: 4.5vw;
+  }
+
+  .test-section button {
+    font-size: 4vw;
   }
 }
