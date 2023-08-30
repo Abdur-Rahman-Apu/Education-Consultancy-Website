@@ -311,6 +311,29 @@
   width: 50px;
 }
 
+.map-section {
+  margin: 4rem 6rem;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  height: 300px;
+  color: #fff;
+}
+
+.map-container > div {
+  width: 50%;
+}
+
+.small-map {
+  padding: 0.2rem;
+}
+
+.small-map img {
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* media query  */
 
 @media screen and (max-width: 1200px) {
