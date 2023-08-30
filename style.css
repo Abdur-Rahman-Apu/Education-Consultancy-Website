@@ -484,6 +484,7 @@
   }
   .card img {
     width: 100%;
+    height: fit-content;
   }
 
   .count {
