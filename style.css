@@ -323,8 +323,22 @@
   width: 50%;
 }
 
+.full-map {
+  padding: 0.2rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  transition: width 1s;
+}
+
+.map-section:hover .full-map {
+  width: 50%;
+}
+
 .small-map {
   padding: 0.2rem;
+  height: 100%;
 }
 
 .small-map img {
@@ -332,6 +346,36 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.map-content {
+  margin-left: 3rem;
+}
+
+.map-content .h3 {
+  font-family: var(--font-poppins);
+}
+
+.map-content .map-subheading {
+  font-family: var(--font-inter);
+}
+
+.map-content button {
+  font-family: var(--font-poppins);
+  background-color: transparent;
+  padding: 0.5rem 3rem;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.map-content button:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.map-subheading {
+  margin: 1.5rem 0;
 }
 
 /* media query  */
@@ -419,6 +463,10 @@
   .count-name {
     font-size: 1.7vw;
   }
+
+  .map-section {
+    margin: 4rem 2rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .banner-section {
@@ -467,6 +515,19 @@
   .count-name {
     font-size: 3.1vw;
   }
+  .map-section {
+    height: auto;
+    padding: 3rem 0.2;
+  }
+
+  .map-container > div {
+    width: 100%;
+  }
+
+  .map-content {
+    padding: 4rem 3rem;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -479,6 +540,19 @@
   }
   .student-count-section {
     padding: 3rem 1rem 3rem;
+  }
+
+  .map-content {
+    padding: 4rem 1.5rem;
+  }
+
+  .map-subheading {
+    font-size: 3vw;
+  }
+
+  .map-content button {
+    font-size: 3vw;
+    padding: 0.5rem 2rem;
   }
 }
 
@@ -517,6 +591,10 @@
   .count-name {
     font-size: 4.1vw;
   }
+
+  .map-content {
+    padding: 4rem 1rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -539,5 +617,8 @@
 
   .count-name {
     font-size: 3.6vw;
+  }
+  .map-section {
+    margin: 4rem 1rem;
   }
 }
