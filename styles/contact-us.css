@@ -5,6 +5,11 @@
   --secondary-color: #0b233b;
 }
 
+body {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 .navbar-brand {
   height: 4vw;
   text-transform: uppercase;
@@ -34,6 +39,66 @@
   color: #fff;
 }
 
+main {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+main .h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+}
+
+.main-part .form-part {
+  width: 60%;
+}
+
+.form-part input,
+.form-part textarea {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+}
+
+.main-part .contact-info {
+  width: 40%;
+}
+
+.contact-details {
+  background-color: #0b233b;
+  box-shadow: 2px 4px 40px 10px #0a1929,
+    2px 4px 4px 0px rgba(137, 0, 160, 0.14) inset;
+  margin-left: 1rem;
+  padding: 1rem 0;
+  font-family: var(--font-poppins);
+}
+
+.contact-info p {
+  font-weight: 600;
+}
+
+.contact-info span {
+  font-weight: 400;
+}
+
+.contact-img {
+  background-color: #3362cc;
+  padding: 1rem;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  font-family: var(--font-poppins);
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 1s;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
 .footer-upper {
   background-color: var(--primary-color);
   color: #fff;
@@ -49,6 +114,8 @@
 
 .footer-bottom {
   font-family: var(--font-poppins);
+  background-color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 1200px) {
