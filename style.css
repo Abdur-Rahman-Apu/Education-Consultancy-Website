@@ -458,6 +458,9 @@
 /* media query  */
 
 @media screen and (max-width: 1200px) {
+  .navbar-brand {
+    height: 6vw;
+  }
   .student-count-section {
     flex-direction: column;
   }
@@ -528,6 +531,14 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .navbar-brand {
+    height: 8vw;
+  }
+
+  .navbar-brand img {
+    height: 8vw;
+  }
+
   .banner-section h1 {
     font-size: 8vw;
     line-height: 4rem;
@@ -581,6 +592,13 @@
 }
 
 @media screen and (max-width: 640px) {
+  .navbar-brand {
+    height: 9vw;
+  }
+
+  .navbar-brand img {
+    height: 9vw;
+  }
   .testimonial-section .h3 {
     font-size: 6vw;
     padding-left: 2.5rem;
@@ -594,6 +612,13 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .navbar-brand {
+    height: 10vw;
+  }
+
+  .navbar-brand img {
+    height: 10vw;
+  }
   .banner-section {
     padding: 0;
   }
@@ -679,6 +704,13 @@
 }
 
 @media screen and (max-width: 440px) {
+  .navbar-brand {
+    height: 10vw;
+  }
+
+  .navbar-brand img {
+    height: 10vw;
+  }
   .card img {
     width: fit-content;
   }
@@ -786,8 +818,12 @@
 }
 
 @media screen and (max-width: 300px) {
-  .navbar-brand p {
-    font-size: 5vw;
+  .navbar-brand {
+    height: 12vw;
+  }
+
+  .navbar-brand img {
+    height: 12vw;
   }
 
   .nav-link,
