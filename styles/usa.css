@@ -1,0 +1,99 @@
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --primary-color: #0c243c;
+  --secondary-color: #0b233b;
+}
+
+.navbar-brand {
+  height: 4vw;
+  text-transform: uppercase;
+  font-family: var(--font-inter);
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav-link {
+  font-family: var(--font-inter);
+  font-weight: 500;
+  color: #000;
+}
+
+.book-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: var(--font-inter);
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    height: 6vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-brand img {
+    height: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    height: 8vw;
+  }
+
+  .navbar-brand img {
+    height: 8vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    height: 9vw;
+  }
+
+  .navbar-brand img {
+    height: 9vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    height: 10vw;
+  }
+
+  .navbar-brand img {
+    height: 10vw;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .navbar-brand {
+    height: 10vw;
+  }
+
+  .navbar-brand img {
+    height: 10vw;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 300px) {
+  .navbar-brand {
+    height: 12vw;
+  }
+
+  .navbar-brand img {
+    height: 12vw;
+  }
+
+  .nav-link,
+  .book-btn {
+    font-size: 4.5vw;
+  }
+}
