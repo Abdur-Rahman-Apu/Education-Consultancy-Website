@@ -378,6 +378,66 @@
   margin: 1.5rem 0;
 }
 
+.testimonial-section {
+  margin: 5rem 0;
+}
+
+.testimonial-section .h3 {
+  font-family: var(--font-poppins);
+  font-size: 2.5vw;
+  padding-left: 6rem;
+  margin-bottom: 4rem;
+}
+
+.slider {
+  margin: 2rem 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 45%;
+}
+
+.swiper-slide:nth-child(2n + 1) {
+  background-color: #ffd6d6;
+}
+
+.swiper-slide:nth-child(2n + 2) {
+  background-color: #d7d6ff;
+}
+
+.slider .slider-card {
+  border-radius: 20px;
+  padding: 2rem 4rem;
+}
+
+.client-img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+}
+
+.client-info .h4 {
+  font-family: var(--font-poppins);
+}
+
+.loan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 12px rgba(174, 174, 174, 0.25);
+}
+
+.loan img {
+  width: 1.8vw;
+}
 /* media query  */
 
 @media screen and (max-width: 1200px) {
@@ -391,6 +451,19 @@
 
   .student-count-amount {
     margin-top: 3rem;
+  }
+
+  .testimonial-section .h3 {
+    font-size: 3.8vw;
+  }
+
+  .swiper-slide {
+    width: 60%;
+  }
+
+  .client-img {
+    width: 7vw;
+    height: 7vw;
   }
 }
 @media screen and (max-width: 992px) {
@@ -467,6 +540,23 @@
   .map-section {
     margin: 4rem 2rem;
   }
+
+  .testimonial-section .h3 {
+    font-size: 4.8vw;
+  }
+  .swiper-slide {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .testimonial-section .h3 {
+    font-size: 6vw;
+    padding-left: 2.5rem;
+  }
+  .swiper-slide {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 576px) {
   .banner-section {
@@ -528,6 +618,25 @@
     padding: 4rem 3rem;
     margin-left: 0;
   }
+
+  .swiper-slide {
+    width: 95%;
+  }
+
+  .client-img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 3rem;
+  }
+
+  .client-info .h4 {
+    font-size: 7vw;
+    margin-top: 1rem;
+  }
+
+  .loan {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -553,6 +662,14 @@
   .map-content button {
     font-size: 3vw;
     padding: 0.5rem 2rem;
+  }
+
+  .testimonial-section .h3 {
+    font-size: 8vw;
+  }
+
+  .slider .slider-card {
+    padding: 2rem 3rem;
   }
 }
 
@@ -595,6 +712,16 @@
   .map-content {
     padding: 4rem 1rem;
   }
+
+  .testimonial-section .h3 {
+    padding: 1.5rem;
+    font-size: 10vw;
+  }
+
+  .client-img {
+    width: 20vw;
+    height: 20vw;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -620,5 +747,18 @@
   }
   .map-section {
     margin: 4rem 1rem;
+  }
+  .testimonial-section .h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .client-img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .client-info .h4 {
+    font-size: 7.5vw;
   }
 }
