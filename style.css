@@ -505,6 +505,10 @@
     width: 100%;
   }
 
+  .service-section {
+    margin: 3rem 2rem 0;
+  }
+
   .loan-content-part,
   .loan-img {
     width: 100%;
@@ -531,6 +535,10 @@
 
   .banner-section .book-btn {
     font-size: 3vw;
+  }
+
+  .card img {
+    width: 25vw;
   }
 
   .test-section > div {
@@ -671,6 +679,9 @@
 }
 
 @media screen and (max-width: 440px) {
+  .card img {
+    width: fit-content;
+  }
   .student-count-content .h2 {
     font-size: 5.5vw;
   }
@@ -721,6 +732,10 @@
     padding: 1rem 0;
   }
 
+  .card img {
+    width: 25vw;
+  }
+
   .card-title {
     font-size: 6vw;
   }
@@ -754,7 +769,7 @@
 
   .testimonial-section .h3 {
     padding: 1.5rem;
-    font-size: 10vw;
+    font-size: 9.5vw;
   }
 
   .client-img {
