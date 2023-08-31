@@ -84,6 +84,12 @@ main button {
   .navbar-brand img {
     height: 5vw;
   }
+  main {
+    margin-bottom: 0;
+  }
+  main > div {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar-brand {
@@ -111,6 +117,10 @@ main button {
   .navbar-brand img {
     height: 10vw;
   }
+  main {
+    margin-left: 3rem;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -121,8 +131,19 @@ main button {
   .navbar-brand img {
     height: 10vw;
   }
+  .university-select img {
+    display: none;
+  }
+
+  .university-select input {
+    padding-left: 1rem;
+  }
 }
 @media screen and (max-width: 380px) {
+  main {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 300px) {
   .navbar-brand {
@@ -136,5 +157,8 @@ main button {
   .nav-link,
   .book-btn {
     font-size: 4.5vw;
+  }
+  main {
+    overflow: hidden;
   }
 }
