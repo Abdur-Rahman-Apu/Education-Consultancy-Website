@@ -5,6 +5,10 @@
   --secondary-color: #0b233b;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-brand {
   height: 4vw;
   text-transform: uppercase;
@@ -32,6 +36,49 @@
 
 .book-btn:hover {
   color: #fff;
+}
+
+main {
+  font-family: var(--font-poppins);
+  background-color: #fff;
+  margin: 4rem 0;
+}
+main .h2 {
+  font-weight: 700;
+}
+
+.content p {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+}
+
+.content .h3 {
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.que-ans .ans,
+.que-ans .img-part {
+  width: 50%;
+}
+
+span {
+  font-weight: 600;
+}
+
+.apply-btn {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 2rem;
+  transition: all 1s;
+}
+
+.apply-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .footer-upper {
@@ -65,6 +112,14 @@
     margin: 0 auto;
     font-size: 2.5vw;
   }
+  .que-ans .ans,
+  .que-ans .img-part {
+    width: 100%;
+  }
+
+  .que-ans .img-part {
+    margin: 2rem 0;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar-brand {
@@ -96,6 +151,16 @@
     height: 10vw;
   }
 
+  .content .h3 {
+    font-size: 3.3vw;
+  }
+
+  .content p,
+  li,
+  .apply-btn {
+    font-size: 2.3vw;
+  }
+
   .footer-bottom p {
     font-size: 2.6vw;
   }
@@ -108,6 +173,16 @@
 
   .navbar-brand img {
     height: 10vw;
+  }
+
+  .content .h3 {
+    font-size: 4.3vw;
+  }
+
+  .content p,
+  li,
+  .apply-btn {
+    font-size: 3vw;
   }
 
   .footer-upper .row .col {
@@ -139,5 +214,15 @@
   .nav-link,
   .book-btn {
     font-size: 4.5vw;
+  }
+
+  .content .h3 {
+    font-size: 5vw;
+  }
+
+  .content p,
+  li,
+  .apply-btn {
+    font-size: 3.5vw;
   }
 }
