@@ -5,6 +5,11 @@
   --secondary-color: #0b233b;
 }
 
+body {
+  background-color: #eee;
+  color: #fff;
+}
+
 .navbar-brand {
   height: 4vw;
   text-transform: uppercase;
@@ -34,6 +39,45 @@
   color: #fff;
 }
 
+main {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+main .h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  color: #000;
+}
+
+.form-part {
+  width: 80%;
+}
+
+.form-part input {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #fafafa;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 1s;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
 .footer-upper {
   background-color: var(--primary-color);
   color: #fff;
@@ -49,6 +93,8 @@
 
 .footer-bottom {
   font-family: var(--font-poppins);
+  background-color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 1200px) {
@@ -96,6 +142,10 @@
     height: 10vw;
   }
 
+  .main-part .form-part {
+    width: 100%;
+  }
+
   .footer-bottom p {
     font-size: 2.6vw;
   }
@@ -108,6 +158,10 @@
 
   .navbar-brand img {
     height: 10vw;
+  }
+
+  main .h2 {
+    padding-left: 1rem;
   }
 
   .footer-upper .row .col {
