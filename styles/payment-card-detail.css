@@ -34,6 +34,20 @@
   color: #fff;
 }
 
+main {
+  font-family: var(--font-poppins);
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--primary-color);
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.3rem 2rem;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar-brand {
     height: 6vw;
@@ -74,6 +88,13 @@
   .navbar-brand img {
     height: 10vw;
   }
+
+  .form-label,
+  .form-check-label,
+  input::placeholder,
+  input[type="submit"] {
+    font-size: 2.5vw;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -83,6 +104,12 @@
 
   .navbar-brand img {
     height: 10vw;
+  }
+  .form-label,
+  .form-check-label,
+  input::placeholder,
+  input[type="submit"] {
+    font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 380px) {
@@ -101,6 +128,12 @@
 
   .nav-link,
   .book-btn {
+    font-size: 4.5vw;
+  }
+  .form-label,
+  .form-check-label,
+  input::placeholder,
+  input[type="submit"] {
     font-size: 4.5vw;
   }
 }
