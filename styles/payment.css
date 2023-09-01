@@ -34,14 +34,71 @@
   color: #fff;
 }
 
+main {
+  margin-top: 6rem;
+}
+
+main form {
+  width: 50%;
+  font-family: var(--font-inter);
+}
+
+form p {
+  font-weight: 600;
+}
+
+form input[type="text"] {
+  border: 1px solid #000;
+}
+
+form .input-group {
+  width: 51%;
+}
+
+form .input-group span {
+  border: 1px solid #000;
+}
+
+input[type="submit"] {
+  padding: 0.3rem 2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: var(--font-poppins);
+}
+
+main .img-part {
+  width: 30%;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar-brand {
     height: 6vw;
+  }
+
+  form .input-group {
+    width: 61%;
   }
 }
 @media screen and (max-width: 992px) {
   .navbar-brand img {
     height: 5vw;
+  }
+
+  main form {
+    width: 100%;
+  }
+
+  form .input-group {
+    width: 41%;
+  }
+
+  form p,
+  input[type="submit"] {
+    font-size: 2vw;
+  }
+
+  main .img-part {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
@@ -70,6 +127,15 @@
   .navbar-brand img {
     height: 10vw;
   }
+
+  form .input-group {
+    width: 55%;
+  }
+
+  form p,
+  input[type="submit"] {
+    font-size: 3.5vw;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -80,8 +146,20 @@
   .navbar-brand img {
     height: 10vw;
   }
+
+  form .input-group {
+    width: 75%;
+  }
 }
 @media screen and (max-width: 380px) {
+  form .input-group {
+    width: 85%;
+  }
+
+  form p,
+  input[type="submit"] {
+    font-size: 4.5vw;
+  }
 }
 @media screen and (max-width: 300px) {
   .navbar-brand {
