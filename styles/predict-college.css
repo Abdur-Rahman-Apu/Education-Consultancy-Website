@@ -128,6 +128,11 @@ input[type="submit"]:hover {
     font-size: 1.8vw;
   }
 
+  .card-body label,
+  input::placeholder {
+    font-size: 1.5vw;
+  }
+
   .aptitude-test {
     margin-top: 2.5rem;
   }
@@ -143,8 +148,14 @@ input[type="submit"]:hover {
 
   .card-body p,
   .back-btn,
-  input[type="submit"] {
+  input[type="submit"],
+  label {
     font-size: 2vw;
+  }
+
+  .card-body label,
+  input::placeholder {
+    font-size: 1.5vw;
   }
 }
 @media screen and (max-width: 640px) {
@@ -169,6 +180,11 @@ input[type="submit"]:hover {
   input[type="submit"],
   label {
     font-size: 2.8vw;
+  }
+
+  .card-body label,
+  input::placeholder {
+    font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 576px) {
@@ -212,6 +228,11 @@ input[type="submit"]:hover {
   label {
     margin-top: 1rem;
   }
+
+  .card-body label,
+  input::placeholder {
+    font-size: 3.5vw;
+  }
 }
 @media screen and (max-width: 380px) {
   .card-header p:first-child {
@@ -227,6 +248,10 @@ input[type="submit"]:hover {
   input[type="submit"],
   label {
     font-size: 4.5vw;
+  }
+  .card-body label,
+  input::placeholder {
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 300px) {
